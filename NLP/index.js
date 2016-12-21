@@ -27,3 +27,9 @@ var countInflector = natural.CountInflector;
 for (var i = 1; i <= 10; i++){
   console.log(countInflector.nth(i));
 }
+
+// NGrams
+var NGrams = natural.NGrams;
+
+var myString = "The monkey ate all of the bananas";
+console.log(NGrams.ngrams(myString, 4));
